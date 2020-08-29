@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links and Buttons</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+
+    /* Button Styling */
+
+    .btn {
+      background: #4c6ca0;
+      color: white;
+      border: none;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      color: #f3f3f3;
+      background: #446190;
+    }
+
+    /* Link styling. But NOTE: Both link and button are under the same class "btn" */
+    a {
+      color: #333333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: lightsalmon;
+      background: sienna;
+      text-decoration: underline;
+    }
+
+    /* a:visited {
+      color: red;
+    } */
+
+    a:active {
+      color: red;
+    }
+
+  </style>
+</head>
+<body>
+  <br><br>
+  <a href="#" class="btn">My Link</a>
+  <br>
+  <br>
+  <button class="btn">My Button</button>
+</body>
+</html>

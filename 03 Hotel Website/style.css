@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+#navbar {
+    background-color: #1b1b1b;
+    height: 88px;
+    overflow: hidden;
+}
+
+.current a{
+    background: #333;
+    color: darksalmon;
+}
+
+.logo {
+    float: left;
+    margin: 28px;
+}
+
+#navbar ul{
+    float: right;
+    display: block;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+
+#navbar ul li a:hover{
+    background-color: rgb(46, 45, 45);
+    color: darksalmon;
+}
+
+.home-info{
+    background: url('./images/dark-hotel-night-swimming.jpg') no-repeat center center/cover;
+    height: 500px;
+}
+
+.info-container{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.info-container h1{
+    color: #f4f4f4;
+    line-height: 1.7em;
+    font-size: 2.9em;
+    padding-top: 50px;
+}
+
+.info-container h1 span{
+    color: darksalmon;
+}
+
+.info-container p{
+    color: #f4f4f4;
+    padding-bottom: 20px;
+}
+
+.info-container a{
+    background-color: rgb(46, 45, 45);
+    padding: 8px 15px;
+    color: #f4f4f4;
+}
+
+.info-container a:hover{
+    color: darksalmon;
+    background-color: rgb(31, 30, 30);
+}
+
+.img-showcase{
+    background: url('./images/221483584.jpg');
+    float: left;
+    height: 450px;
+    width: 50%;
+}
+
+.content-showcase{
+    background: rgb(46, 45, 45);
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 80px;
+    height: 450px;
+    width: 50%;
+    float: right;
+}
+.content-showcase h2{
+    font-size: 1.9em;
+}
+.content-showcase h2 span{
+    color: darksalmon;
+}
+.showcase-container{
+    max-width: 630px;
+    margin: auto;
+}
+
+.content-showcase p{
+    line-height: 1.5em;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.content-showcase a{
+    padding: 8px 13px;
+    color: rgb(31, 30, 30);
+    background-color: #f4f4f4;
+}
+
+.content-showcase a:hover{
+    color: black;
+    background-color: darksalmon;
+}
+
+/* Facilites */
+.box{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 50px;
+    color: #444;
+}
+
+.box h2{
+    padding: 10px;
+}
+
+#special-bg{
+    background-color: darksalmon;
+}
+
+.main-footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.clr{
+    clear: both;
+}
+
+.about-info h1 span{
+    color: darksalmon;
+    
+}
+
+.about-info h1{
+    font-size: 2.0em;
+    padding-left: 50px;
+}
+.about-info{
+    text-align: justify;
+    float: left;
+    padding: 40px 50px;
+    width: 50%;
+}
+
+.about-img{
+    background: url('./images/swimming-pool.jpg') no-repeat center center/cover;
+    float: right;
+    width: 20%;
+    margin: 40px 250px 40px 0;
+    min-height: 250px;
+    border-radius: 50%;
+
+}
+
+.testimonial{
+    background: url('./images/1920x880_upload-website.jpg');
+    height: 100vh;
+}
+
+.testimonial h1{
+    text-align: center;
+    color: rgb(2, 0, 0);
+    padding: 75px;
+    font-size: 2.0em;
+}
+
+.test-cont1{
+    height: 120px;
+    margin: 0 100px;
+    background: darksalmon;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.test-cont1 img{
+    float: left;
+    width: 80px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.test-cont1 p{
+    float: right;
+    width: 87%;
+    padding-top: 15px;
+    color: #111;
+}
+
+.contact{
+    padding: 25px 30px;
+    text-align: left;
+}
+
+.contact p{
+    text-align: left;
+    color: #111;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.contact h1{
+    font-size: 2.5em;
+    padding: 20px 0;
+}
+
+.contact h1 span{
+    color: darksalmon;
+}
+
+.contact label{
+    font-weight: 500;
+    display: block;
+}
+
+.contact input, 
+.contact textarea{
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+
+.btn{
+    background-color: rgb(46, 45, 45);
+    padding: 8px 15px;
+    color: #f4f4f4;
+    border: 1px solid #111;
+    border-radius: 5px;
+
+}
+
+.contact-info .box{
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.btn:hover{
+    color: darksalmon;
+    background-color: rgb(31, 30, 30);
+}

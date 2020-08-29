@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model, Margin and Padding</title>
+  <style>
+    /* CSS Reset */
+    *  {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    .box {
+      background: red;
+      border: 3px #000000 solid;
+      width: 500px;
+
+      /* Padding on all sides */
+      padding: 20px;
+
+      /* Padding per side */
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+
+      /* Padding Shorthand Top, Right, Bottom, Left */
+      padding: 20px 10px 20px 10px;
+
+      /* Padding Shorthand Top/Bottom Left/Right */
+      padding: 10px 20px;
+
+      /* Margin on all sides */
+      margin: 20px;
+
+      /* Margin on all sides */
+      margin: 20px;
+      
+      /* Margin per side */
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+
+      /* Margin Shorthand Top, Right, Bottom, Left */
+      margin: 20px 10px 20px 10px;
+
+      /* Margin Shorthand Top/Bottom Left/Right */
+      margin: 10px 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Box One</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tempora deserunt cum voluptates asperiores quis nemo veritatis earum voluptas impedit!</p>
+  </div>
+  <div class="box">
+    <h1>Box Two</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tempora deserunt cum voluptates asperiores quis nemo veritatis earum voluptas impedit!</p>
+  </div>
+  
+</body>
+</html>

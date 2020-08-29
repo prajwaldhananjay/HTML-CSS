@@ -1,0 +1,83 @@
+.logo{
+    float: none;
+    margin: 15px;
+    text-align: center;
+}
+
+#navbar{
+    height: 210px;
+}
+#navbar ul{
+    float: none;
+}
+
+#navbar ul li{
+    float: none;
+}
+
+#navbar ul li a{
+    padding: 10px;
+}
+
+.info-container{
+    max-width: 400px;
+}
+
+.info-container h1{
+    padding-top: 30px;
+}
+
+.img-showcase{
+    display: none;
+    float: none;
+}
+
+.content-showcase{
+    float: none;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+.box{
+    float: none;
+    width: 100%;
+}
+
+.about-info h1{
+    padding-left: 0px;
+}
+
+.about-info{
+    width: 100%;
+    text-align: center;
+    float: none;
+    padding-bottom: 10px;
+}
+
+.about-img{
+    float: none;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.testimonial h1{
+    padding: 50px;
+
+}
+
+.test-cont1{
+    margin: 0px 50px 30px 50px;
+    height: 35%;
+    padding-bottom: 0px;
+}
+.test-cont1 img{
+    float: none;
+    display: inline;
+}
+
+.test-cont1 p{
+    display: inline;
+    float: none;
+    padding-left: 20px;
+    padding-top: 0px;
+}
